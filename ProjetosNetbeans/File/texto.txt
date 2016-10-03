@@ -1,0 +1,123 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20140531064127[-3:GMT]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>SANTANDER
+                <FID>SANTANDER
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>BRL
+                <BANKACCTFROM>
+                    <BANKID>033
+                    <ACCTID>2032010212432
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20140531064127[-3:GMT]
+                    <DTEND>20140531064127[-3:GMT]
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140502000000[-3:GMT]
+                        <TRNAMT>            -17,00
+                        <FITID>00485361
+                        <CHECKNUM>00485361
+                        <PAYEEID>0
+                        <MEMO>COMPRA CARTAO MAESTRO              01/05 PAGSEGURO          
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140502000000[-3:GMT]
+                        <TRNAMT>            -21.90
+                        <FITID>00204161
+                        <CHECKNUM>00204161
+                        <PAYEEID>0
+                        <MEMO>COMPRA CARTAO MAESTRO              01/05 CONFEITARIA E C    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140502000000[-3:GMT]
+                        <TRNAMT>            -25.30
+                        <FITID>00190461
+                        <CHECKNUM>00190461
+                        <PAYEEID>0
+                        <MEMO>COMPRA CARTAO MAESTRO              02/05 MADERO             
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140505000000[-3:GMT]
+                        <TRNAMT>            -97.90
+                        <FITID>00294861
+                        <CHECKNUM>00294861
+                        <PAYEEID>0
+                        <MEMO>COMPRA CARTAO MAESTRO              03/05 EMPORIO SAO BEN    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140505000000[-3:GMT]
+                        <TRNAMT>            -10.58
+                        <FITID>00434761
+                        <CHECKNUM>00434761
+                        <PAYEEID>0
+                        <MEMO>COMPRA CARTAO MAESTRO              03/05 QOY CHOCOLATE      
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140505000000[-3:GMT]
+                        <TRNAMT>            -10.19
+                        <FITID>00421861
+                        <CHECKNUM>00421861
+                        <PAYEEID>0
+                        <MEMO>COMPRA CARTAO MAESTRO              04/05 REDE STORE SUPE    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140505000000[-3:GMT]
+                        <TRNAMT>             12.70
+                        <FITID>00093105
+                        <CHECKNUM>00093105
+                        <PAYEEID>0
+                        <MEMO>REMUNERACAO CONTAMAX CDB                                    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140530000000[-3:GMT]
+                        <TRNAMT>            -10,00
+                        <FITID>00302461
+                        <CHECKNUM>00302461
+                        <PAYEEID>0
+                        <MEMO>COMPRA CARTAO MAESTRO              30/05 PANIFICADORA MO    
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>          13922.78
+                    <DTASOF>20140531064127[-3:GMT]
+                </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>
